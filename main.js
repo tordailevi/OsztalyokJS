@@ -1,6 +1,10 @@
 import Ember from "./Ember.js";
+import { emberekLista } from "./adat.js";
 
 
+for (let index = 0; index < emberekLista; index++) {
+    const ember = new Ember(emberekLista[index].nev,emberekLista[index].szulIdo,emberekLista[index].magassag,emberekLista[index].articleElem)
+}
 
 
 let articleElem=document.querySelector("article")
